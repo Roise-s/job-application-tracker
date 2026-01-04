@@ -1,7 +1,7 @@
 
 const PreviewDrawer = () => {
   return (
-    <div id="drawer-read-product-advanced" className="overflow-y-auto fixed top-0 left-0 z-40 p-4 w-full max-w-lg h-screen bg-white transition-transform -translate-x-full dark:bg-gray-800" tabindex="-1" aria-labelledby="drawer-label" aria-hidden="true">
+    <div id="drawer-read-product-advanced" className="overflow-y-auto fixed top-0 left-0 z-40 p-4 w-full max-w-lg h-screen bg-white transition-transform -translate-x-full dark:bg-gray-800" tabIndex={-1} aria-labelledby="drawer-label" aria-hidden="true">
             <div>
                 <h4 id="read-drawer-label" className="mb-1.5 leading-none text-xl font-semibold text-gray-900 dark:text-white">Apple iMac 25"</h4>
                 <h5 className="mb-5 text-xl font-bold text-gray-900 dark:text-white">$2999</h5>
@@ -14,22 +14,22 @@ const PreviewDrawer = () => {
             </button>
             <div className="grid grid-cols-3 gap-4 mb-4 sm:mb-5">
                 <div className="p-2 w-auto bg-gray-100 rounded-lg dark:bg-gray-700">
-                    <img src="https://flowbite.s3.amazonaws.com/blocks/application-ui/products/imac-side-image.png" alt="iMac Side Image">
+                    <img src="https://flowbite.s3.amazonaws.com/blocks/application-ui/products/imac-side-image.png" alt="iMac Side Image" />
                 </div>
                 <div className="p-2 w-auto bg-gray-100 rounded-lg dark:bg-gray-700">
-                    <img src="https://flowbite.s3.amazonaws.com/blocks/application-ui/products/imac-front-image.png" alt="iMac Front Image">
+                    <img src="https://flowbite.s3.amazonaws.com/blocks/application-ui/products/imac-front-image.png" alt="iMac Front Image" />
                 </div>
                 <div className="p-2 w-auto bg-gray-100 rounded-lg dark:bg-gray-700">
-                    <img src="https://flowbite.s3.amazonaws.com/blocks/application-ui/products/imac-back-image.png" alt="iMac Back Image">
+                    <img src="https://flowbite.s3.amazonaws.com/blocks/application-ui/products/imac-back-image.png" alt="iMac Back Image" />
                 </div>
                 <div className="p-2 w-auto bg-gray-100 rounded-lg dark:bg-gray-700">
-                    <img src="https://flowbite.s3.amazonaws.com/blocks/application-ui/products/imac-side-image.png" alt="iMac Back Image">
+                    <img src="https://flowbite.s3.amazonaws.com/blocks/application-ui/products/imac-side-image.png" alt="iMac Back Image" />
                 </div>
                 <div className="p-2 w-auto bg-gray-100 rounded-lg dark:bg-gray-700">
-                    <img src="https://flowbite.s3.amazonaws.com/blocks/application-ui/products/imac-back-image.png" alt="iMac Front Image">
+                    <img src="https://flowbite.s3.amazonaws.com/blocks/application-ui/products/imac-back-image.png" alt="iMac Front Image" />
                 </div>
                 <div className="p-2 w-auto bg-gray-100 rounded-lg dark:bg-gray-700">
-                    <img src="https://flowbite.s3.amazonaws.com/blocks/application-ui/products/imac-side-image.png" alt="iMac Side Image">
+                    <img src="https://flowbite.s3.amazonaws.com/blocks/application-ui/products/imac-side-image.png" alt="iMac Side Image" />
                 </div>
             </div>
             <dl className="sm:mb-5"><dt className="mb-2 font-semibold leading-none text-gray-900 dark:text-white">Details</dt><dd className="mb-4 font-light text-gray-500 sm:mb-5 dark:text-gray-400">Standard glass ,3.8GHz 8-core 10th-generation Intel Core i7 processor, Turbo Boost up to 5.0GHz, 16GB 2666MHz DDR4 memory, Radeon Pro 5500 XT with 8GB of GDDR6 memory, 256GB SSD storage, Gigabit Ethernet, Magic Mouse 2, Magic Keyboard - US.</dd></dl>
@@ -46,12 +46,12 @@ const PreviewDrawer = () => {
                 <div className="col-span-2 p-3 bg-gray-100 rounded-lg border border-gray-200 dark:bg-gray-700 sm:col-span-1 dark:border-gray-600">
                     <dt className="mb-2 font-semibold leading-none text-gray-900 dark:text-white">Colors</dt>
                     <dd className="flex items-center space-x-2 font-light text-gray-500 dark:text-gray-400">
-                        <div className="flex-shrink-0 w-6 h-6 bg-purple-600 rounded-full"></div>
-                        <div className="flex-shrink-0 w-6 h-6 bg-indigo-400 rounded-full"></div>
-                        <div className="flex-shrink-0 w-6 h-6 rounded-full bg-primary-600"></div>
-                        <div className="flex-shrink-0 w-6 h-6 bg-pink-400 rounded-full"></div>
-                        <div className="flex-shrink-0 w-6 h-6 bg-teal-300 rounded-full"></div>
-                        <div className="flex-shrink-0 w-6 h-6 bg-green-300 rounded-full"></div>
+                        <div className="shrink-0 w-6 h-6 bg-purple-600 rounded-full"></div>
+                        <div className="shrink-0 w-6 h-6 bg-indigo-400 rounded-full"></div>
+                        <div className="shrink-0 w-6 h-6 rounded-full bg-primary-600"></div>
+                        <div className="shrink-0 w-6 h-6 bg-pink-400 rounded-full"></div>
+                        <div className="shrink-0 w-6 h-6 bg-teal-300 rounded-full"></div>
+                        <div className="shrink-0 w-6 h-6 bg-green-300 rounded-full"></div>
                     </dd>
                 </div>
                 <div className="p-3 bg-gray-100 rounded-lg border border-gray-200 dark:bg-gray-700 dark:border-gray-600">
